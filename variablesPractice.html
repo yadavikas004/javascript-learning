@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice Set 3</title>
+</head>
+<body>
+  
+  <p id="name-display"></p>
+
+  <script>
+    const myName = 'Vikas Yadav';
+    console.log(myName);
+    const GSTPercentage = 18;
+    document.querySelector('#name-display').innerText = myName;
+    let cartValue = Math.round(((15599 - (10/100*15599)) - 272 + (2499 - (41/100*2499)) - 29 + 25 + 20) * GSTPercentage/100);
+    console.log(cartValue);
+
+    console.log(eval('2+3+5*7-9'));
+  </script>
+</body>
+</html>

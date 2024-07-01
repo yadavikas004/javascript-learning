@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>variables</title>
+</head>
+<body>
+  
+  <script>
+    let welcome = 'Hello Friends';
+    console.log(welcome);
+    let bagPrice = (15599 - (10/100*15599)) - 272;
+    let jeansPrice = (2499 - (41/100*2499)) - 29;
+    let bagValue = Math.round(( bagPrice + jeansPrice + 25 + 20) * 118/100);
+    let bagSummary = `Your final Myntra Bag amount is ₹${bagValue}`
+    console.log(bagSummary);
+
+
+    let a = 5;
+    let b = 6;
+    let c = a+b;
+    console.log(c);
+    c=b+2;
+    console.log(c);
+
+
+    let i = 5;
+    console.log(i);
+    i += 5;
+    console.log(i);
+
+    const pi = 3.1415926;
+    let radius = 4;
+    //pi = 78;  --> if const is there it can't be update
+    console.log(pi*radius*radius);
+  </script>
+</body>
+</html>
